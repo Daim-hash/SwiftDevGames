@@ -24,11 +24,13 @@
 
 body {
   background-color: black;
-  font-family: 'Conthrax Sb';
+
+}
+h1{
+    font-family: 'Conthrax Sb';
   font-weight: normal;
   font-style: normal;
 }
-
 h1, p {
   display: inline-block;
   margin: auto;
