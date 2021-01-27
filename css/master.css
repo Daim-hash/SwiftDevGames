@@ -44,6 +44,7 @@ footer{
 }
 ul,li{
   list-style: none;
+  padding: 0 0;
 }
 .footer{
   margin-top: 3.125rem;
@@ -103,7 +104,7 @@ ul,li{
 
 .ptext {
   margin: 2rem auto;
-  width: 50%;
+  width: 60%;
 }
 
 .htext {
@@ -141,6 +142,11 @@ h1{
   width: 80%;
 }
 
+
+.ptext , .htext{
+    margin: 2rem auto;
+    width: 80%;
+}
 }
 
 
