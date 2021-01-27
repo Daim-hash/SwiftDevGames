@@ -102,7 +102,7 @@ ul, li {
   display: inline;
 }
 .nav-it{
-  margin-right: 20px;
+  margin-left: 0.3125rem;
 }
 .htext {
   width: 60%;
@@ -129,7 +129,10 @@ ul, li {
 .footer-right-align {
   text-align: right;
 }
-
+.dark-bg{
+  background: black;width: 100%;
+  height: 50rem; opacity:0.5
+}
 #Mid, #About {
   display: flex;
   justify-content: center;
@@ -143,7 +146,8 @@ ul, li {
 
 #Top {
   width: 100%;
-  height: 800px;
+  height: 50rem;
+
 }
 
 #copyrights {
@@ -245,6 +249,9 @@ ul, li {
     font-weight: normal;
     font-style: normal;
   }
+  p{
+    font-size: 1.5rem;
+  }
 }
 
 /* For Mobile View */
@@ -268,7 +275,10 @@ ul, li {
     width: 100%;
     height: 31.25rem;
   }
-
+  .dark-bg{
+    background: black;width: 100%;
+    height: 31.25rem; opacity:0.6;
+  }
   .ptext, .htext {
     margin: 2rem auto;
     width: 80%;
