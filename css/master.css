@@ -52,7 +52,6 @@ h1, p {
 #Top {
   display: flex;
   justify-content: center;
-  height: 43.75rem;
 }
 
 #Mid, #About {
@@ -67,9 +66,12 @@ h1, p {
 }
 
 .logoimg {
-  width: 31.25rem;
-  padding: 3.125rem;
+      margin: 200px 0;
+      width: auto;
+      height: 300px;
 }
+
+
 
 .black {
   color: black;
@@ -100,6 +102,41 @@ h1, p {
   width: 200px;
   margin: auto;
 }
+
+.placeholder{
+  max-width: 500px;
+  margin: auto;
+}
+
+@media only screen and (max-width: 500px){
+
+  .logoimg {
+        margin: 200px 0;
+        width: auto;
+        height: 150px;
+  }
+
+
+  .placeholder{
+    max-width: 300px;
+    margin: auto;
+  }
+
+
+h1{
+  width: 80%;
+}
+
+}
+
+
+
+
+
+
+
+
+
 
 :root {
   --animate-duration: 2s;
