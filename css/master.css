@@ -36,6 +36,18 @@ h1, p {
   margin: auto;
 }
 
+footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 250px;
+}
+ul,li{
+  list-style: none;
+}
+.footer{
+  margin-top: 3.125rem;
+}
 .flex {
   display: flex;
   justify-content: flex-end;
@@ -107,6 +119,8 @@ h1, p {
   max-width: 500px;
   margin: auto;
 }
+
+
 
 @media only screen and (max-width: 500px){
 
