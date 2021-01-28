@@ -48,6 +48,7 @@ footer {
   flex-direction: row;
   justify-content: space-around;
   height: 15.625rem;
+
 }
 
 ul, li {
@@ -316,7 +317,6 @@ strong {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    justify-content: flex-end;
     height: 25rem;
   }
 
